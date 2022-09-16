@@ -1,0 +1,12 @@
+region       = "ap-northeast-1"
+vpc_name     = "Prod-VPC"
+igw          = "Prod-IGW"
+eip          = "Prod-EIP"
+natgw        = "Prod-Natgw"
+pub_route    = "Prod-Public-Route"
+pri_route    = "Prod-Private-Route"
+pub_cidr     = ["10.1.0.0/24", "10.1.1.0/24", "10.1.2.0/24"]
+private_cidr = ["10.1.3.0/24", "10.1.4.0/24", "10.1.5.0/24"]
+data_cidr    = ["10.1.6.0/24", "10.1.7.0/24", "10.1.8.0/24"]
+alb-sg       = "Prod-alb-sg"
+bastion-sg   = "Bastion-sg"
